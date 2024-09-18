@@ -19,7 +19,6 @@
   max-width: var(--max-width);
   width: calc(100% - var(--px-lg) * 2);
   margin-inline: auto;
-  border: solid red;
 }
 
 .desktop-only {
@@ -35,8 +34,16 @@ gap: 1rem;
   display: flex;
 }
 
+.items-center {
+align-items: center;
+}
+
 .gap-1 {
   gap: 1rem;
+}
+
+.gap-1\.5rem {
+  gap: 1.5rem;
 }
 
 .grid {
